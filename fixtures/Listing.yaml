@@ -1,0 +1,9 @@
+App\Entity\Listings:
+  title: '<word()>'
+  description: '<sentence()>'
+  producedYear: '<datetime()>'
+  mileage: '<randomFloat()>'
+  price: '<randomFloat()>'
+  createdAt: '<datetime()>'
+  model: "<randomElement(['Lotus Elise', 'Mercedes Cla', '718 Cayman', 'Maserati Grancabrio', 'Aston Martin Vanquish 3', 'Bugatti Chiron', 'Rolls Royce Phantom', 'Ferrari 812 Superfast', 'Bentley Bentayga', 'Mercedes Classe A'])>"
+

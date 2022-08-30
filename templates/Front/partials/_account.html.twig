@@ -1,0 +1,20 @@
+
+<a class="main-card-account-brand row" href="{{ path('app_brand_show', {'slug': library.brand.slug}) }}">
+    <div class="col-4 p-0 h-100">
+        <div class="container-image-acc-brand">
+            <img src="{{ listing.brand.thumbnailCover }}" alt="{{ listing.brand.name }}">
+        </div>
+    </div>
+    <div class="col-7 d-flex flex-column justify-content-evenly">
+        <div>
+            <h2>{{ listing.brand.name }}</h2>
+            <p>{{ listing.brandTime|time_converter }}</p>
+            <p>Dernière utilisation le {{ listing.lastUsedAt|date('d/m/Y') }}</p>
+        </div>
+        <p class="m-0">posté le {{ listing.createdAt|date('d/m/Y') }}</p>
+    </div>
+    <div class="col-1">
+        <div class="mt-2 ms-auto issou-circle {% if listing.installed %}green{% endif %}">
+        </div>
+    </div>
+</a>

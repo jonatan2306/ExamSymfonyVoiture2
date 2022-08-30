@@ -1,0 +1,34 @@
+App\Entity\Models:
+  model_1:
+    nom: "Lotus Elise"
+
+  model_2:
+    nom: "Mercedes Cla"
+
+  model_3:
+    nom: "718 Cayman"
+
+  model_4:
+    nom: "Maserati Grancabrio"
+
+  model-5:
+    nom: "Aston Martin Vanquish 3"
+
+  model-6:
+    nom: "Bugatti Chiron"
+
+  model-7:
+    nom: "Rolls Royce Phantom"
+
+  model-8:
+    nom: "Ferrari 812 Superfast"
+  
+  model-9:
+    nom: "Bentley Bentayga"
+
+  model-10:
+    nom: "Mercedes Classe A"
+
+    
+
+    

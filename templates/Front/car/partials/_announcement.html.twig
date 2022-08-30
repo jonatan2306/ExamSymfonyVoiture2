@@ -1,0 +1,28 @@
+<div class="d-flex flex-wrap justify-content-end">
+    <div class="tableDesc">
+        <table>
+            <tr>
+                <th>Date de sortie : </th>
+                <td>{{ brand.publishedAt|date('d/m/Y') }}</td>
+            </tr>
+            <tr>
+                <th>Editeur :</th>
+                <td>{% if brand.publisher is not null %}
+                        {{ brand.publisher.name}}
+                    {% else %}
+                        inconnu
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th>Le Modèle :</th>
+                <td>
+                    {% for model in brand.models %}
+                        {{ model.name }}
+                        {% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

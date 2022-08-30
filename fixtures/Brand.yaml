@@ -1,0 +1,34 @@
+App\Entity\Brands:
+  brand_1:
+    nom: "Lotus Cars"
+
+  brand_2:
+    nom: "Mercedes Benz"
+
+  brand_3:
+    nom: "Porsche"
+
+  brand_4:
+    nom: "Maserati"
+
+  brand-5:
+    nom: "Aston Martin"
+
+  brand-6:
+    nom: "Bentley"
+
+  brand-7:
+    nom: "Bugatti"
+
+  brand-8:
+    nom: "Lamborghini"
+  
+  brand-9:
+    nom: "Ferrari"
+
+  brand-10:
+    nom: "Rolls-Royce Motor Cars"
+
+    
+
+    
